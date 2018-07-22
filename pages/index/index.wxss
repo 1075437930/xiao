@@ -1,0 +1,59 @@
+.head{
+  border-bottom: 2px solid #000;
+	color:black;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+  font-size: 50rpx;
+}
+
+.ge{
+  height: 20rpx
+}
+
+scroll-view{
+  display: flex;
+  flex-direction: column;
+
+}
+
+scroll-view navigator{
+  width: 100%;
+  height: 200rpx;
+  padding: 10rpx;
+  box-sizing: border-box;
+  border-bottom:3rpx solid #ccc; 
+  margin-top: 5rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.left{
+  width: 30%;
+}
+
+.left image{
+  width: 100%;
+  height: 100%;
+}
+.right{
+  width: 70%;
+  margin-left:10rpx; 
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 36rpx;
+  font-family: 微软雅黑;
+  height: 78%;
+  overflow: hidden
+}
+
+
+.time{
+  color:black;
+  height: 10% 
+}

@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/info/info"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "新闻小程序",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    
+        "borderStyle":"black",
+        "backgroundColor":"",
+        "selectedColor":"",
+        "color":"",
+          "list": [{
+            "pagePath": "pages/index/index",
+            "text": "头条"
+          
+          }, {
+            "pagePath": "pages/search/search",
+            "text": "栏目"
+          
+          }]
+        }
+}

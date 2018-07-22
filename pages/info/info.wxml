@@ -1,0 +1,16 @@
+<!--pages/info/info.wxml-->
+<scroll-view>
+    <view class='title'>
+
+      {{infoarr.title}}
+    </view>
+
+    <view class='laiy'>
+       <text class='auth'>{{infoarr.author}}</text>
+       <text class='time'>{{infoarr.date}}</text>
+    </view>
+    
+    <image src=' {{infoarr.img1}}'></image>
+    <image src=' {{infoarr.img2}}'></image>
+    <image src=' {{infoarr.img3}}'></image>
+</scroll-view>

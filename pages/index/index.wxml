@@ -1,0 +1,20 @@
+<view class="head">每日新闻</view>
+
+<view class='ge'></view>
+
+<scroll-view scroll-y="true">
+  <block wx:for="{{arr}}">
+  <navigator url="/pages/info/info?title={{item.title}}&img1={{item.thumbnail_pic_s}}&img2={{item.thumbnail_pic_s02}}&img3={{item.thumbnail_pic_s03}}&author={{item.author_name}}&date={{item.date}}">
+      <view class='left'>
+         <image src="{{item.thumbnail_pic_s}}"></image>
+      </view>
+      <view class='right'>
+          <view class='title'>{{item.title}}</view>
+         
+          <view class='time'>{{item.date}}</view>
+      </view>
+  </navigator>
+  </block>
+</scroll-view>
+
+

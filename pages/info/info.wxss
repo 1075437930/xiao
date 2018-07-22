@@ -1,0 +1,27 @@
+/* pages/info/info.wxss */
+
+scroll-view{
+  display: flex;
+  flex-direction: column;
+   flex-wrap: nowrap; 
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+
+
+image{
+  margin-top:30rpx; 
+
+}
+
+.laiy{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:space-between;
+  margin:30rpx auto;
+
+}
+
+
